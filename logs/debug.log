@@ -1,0 +1,30 @@
+2018-09-05 06:48:29 Notice: Deprecated (16384): ViewBuilder::layout() is deprecated. Use ViewBuilder::setLayout() or ViewBuilder::getLayout() instead. - /home/ec2-user/environment/cakeSakae4/src/Controller/HelloController.php, line: 8
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Core/functions.php, line 310]
+Request URL: /hello
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 310
+Cake\View\ViewBuilder::layout() - CORE/src/View/ViewBuilder.php, line 453
+App\Controller\HelloController::initialize() - APP/Controller/HelloController.php, line 8
+Cake\Controller\Controller::__construct() - CORE/src/Controller/Controller.php, line 272
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Http\ControllerFactory::create() - CORE/src/Http/ControllerFactory.php, line 46
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 91
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 235
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+

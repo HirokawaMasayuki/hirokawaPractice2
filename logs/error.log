@@ -1,0 +1,697 @@
+2018-09-03 09:53:00 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 09:53:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-03 09:55:10 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 09:55:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-03 09:55:52 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 09:55:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-03 09:57:58 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:01:29 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:01:29 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Request URL: /boards
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Driver.php(93): PDO->__construct('mysql:host=loca...', 'root', 'rY6-:rT8_xl3', Array)
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Query.php(271): Cake\ORM\Table->getSchema()
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\BoardsTable))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\BoardsTable))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(1350): Cake\ORM\Table->query()
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Datasource/Paginator.php(180): Cake\ORM\Table->find('all', Array)
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(201): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\BoardsTable), Array, Array)
+#14 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(872): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\BoardsTable), Array)
+#15 /home/ec2-user/environment/cakeSakae4/src/Controller/BoardsController.php(23): Cake\Controller\Controller->paginate(Object(App\Model\Table\BoardsTable))
+#16 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(596): App\Controller\BoardsController->index()
+#17 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#18 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\BoardsController))
+#19 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#32 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#33 {main}
+
+
+2018-09-03 10:01:47 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:01:47 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Request URL: /boards
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Driver.php(93): PDO->__construct('mysql:host=loca...', 'root', 'rY6-:rT8_xl3', Array)
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Query.php(271): Cake\ORM\Table->getSchema()
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\BoardsTable))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\BoardsTable))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(1350): Cake\ORM\Table->query()
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Datasource/Paginator.php(180): Cake\ORM\Table->find('all', Array)
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(201): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\BoardsTable), Array, Array)
+#14 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(872): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\BoardsTable), Array)
+#15 /home/ec2-user/environment/cakeSakae4/src/Controller/BoardsController.php(23): Cake\Controller\Controller->paginate(Object(App\Model\Table\BoardsTable))
+#16 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(596): App\Controller\BoardsController->index()
+#17 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#18 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\BoardsController))
+#19 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#32 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#33 {main}
+
+
+2018-09-03 10:02:02 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:06:29 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:23:49 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:23:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-03 10:25:29 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-03 10:25:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-03 10:27:39 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 05:25:25 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:43:57 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:43:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-05 06:45:26 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:45:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-05 06:46:28 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:46:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-05 06:46:55 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:46:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSake4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSake4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSake4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-05 06:47:08 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:48:01 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:48:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSake4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSake4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSake4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-05 06:48:29 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 06:48:29 Error: [Cake\View\Exception\MissingTemplateException] Template file "Hello/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Hello/index.ctp',
+)
+Request URL: /hello
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/View/View.php(799): Cake\View\View->_getViewFileName(NULL)
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(777): Cake\View\View->render(NULL, NULL)
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HelloController))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#17 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#18 {main}
+
+
+2018-09-05 06:48:29 Warning: Warning (512): Unable to emit headers. Headers sent in file=/home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Debugger.php line=853 in [/home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /hello
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2018-09-05 06:48:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 149]
+Request URL: /hello
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2018-09-05 06:48:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Debugger.php:853) in [/home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /hello
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 141
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+
+
+2018-09-05 06:48:55 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 07:02:52 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 07:02:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-05 07:03:33 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 07:03:33 Error: [PDOException] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Tokyo'
+Request URL: /boards
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(111): PDO->exec('SET time_zone =...')
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Query.php(271): Cake\ORM\Table->getSchema()
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\BoardsTable))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\BoardsTable))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/ORM/Table.php(1350): Cake\ORM\Table->query()
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Datasource/Paginator.php(180): Cake\ORM\Table->find('all', Array)
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(201): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\BoardsTable), Array, Array)
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(872): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\BoardsTable), Array)
+#14 /home/ec2-user/environment/cakeSakae4/src/Controller/BoardsController.php(23): Cake\Controller\Controller->paginate(Object(App\Model\Table\BoardsTable))
+#15 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Controller/Controller.php(596): App\Controller\BoardsController->index()
+#16 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\BoardsController))
+#18 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#31 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#32 {main}
+
+
+2018-09-05 07:03:55 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-05 08:59:05 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 04:19:28 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 04:43:27 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:09:24 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:09:26 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:09:48 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:09:58 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:10:18 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:28:12 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:28:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class CakeSakae4 could not be found.
+Exception Attributes: array (
+  'class' => 'CakeSakae4',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /cakeSakae4
+Stack Trace:
+#0 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/cakeSakae4/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/cakeSakae4/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/cakeSakae4/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-06 05:48:38 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:50:40 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:50:47 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 05:50:50 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:01:44 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:01:54 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:01:54 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:01:59 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:07 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:07 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:17 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:23 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:24 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:35 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:37 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:38 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:43 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:46 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:53 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:55 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:57 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:02:59 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 06:03:04 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 07:29:37 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 07:29:38 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 07:29:53 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 07:29:54 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-06 07:30:01 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:26:38 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:26:39 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:26:57 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:26:58 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:30:59 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:31:25 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:31:48 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:32:10 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:32:25 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:32:38 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:32:57 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:33:19 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:33:34 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:33:47 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:34:00 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:34:18 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 04:34:31 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:07 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:08 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:17 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:18 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:25 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:40 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:49 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-07 06:33:50 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:16:24 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:16:26 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:16:43 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:16:45 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:17:07 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:17:54 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:42:10 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:42:12 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:42:16 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-11 09:42:18 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:06:45 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:06:46 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:06:58 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:06:59 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:07:08 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:07:08 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Request URL: /users/login?redirect=%2FSupplierSections
+Referer URL: http://67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com/users/login?redirect=%2FSupplierSections
+Stack Trace:
+#0 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Driver.php(93): PDO->__construct('mysql:host=loca...', 'root', 'rY6-:rT8_xl3', Array)
+#1 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/ec2-user/environment/vendor/cakephp/cakephp/src/ORM/Table.php(547): Cake\Database\Connection->getSchemaCollection()
+#8 /home/ec2-user/environment/vendor/cakephp/cakephp/src/ORM/Query.php(271): Cake\ORM\Table->getSchema()
+#9 /home/ec2-user/environment/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 /home/ec2-user/environment/vendor/cakephp/cakephp/src/ORM/Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 /home/ec2-user/environment/vendor/cakephp/cakephp/src/ORM/Table.php(1350): Cake\ORM\Table->query()
+#12 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(186): Cake\ORM\Table->find('all', Array)
+#13 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(117): Cake\Auth\BaseAuthenticate->_query('hirokawa')
+#14 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php(88): Cake\Auth\BaseAuthenticate->_findUser('hirokawa', 'aaaa')
+#15 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(824): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/ec2-user/environment/src/Controller/UsersController.php(102): Cake\Controller\Component\AuthComponent->identify()
+#17 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Controller/Controller.php(596): App\Controller\UsersController->login()
+#18 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#19 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#20 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#32 /home/ec2-user/environment/webroot/index.php(40): Cake\Http\Server->run()
+#33 /home/ec2-user/environment/index.php(16): require('/home/ec2-user/...')
+#34 {main}
+
+
+2018-09-12 05:08:20 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:08:21 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:12:51 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:13:07 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:13:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Supplier could not be found.
+Exception Attributes: array (
+  'class' => 'Supplier',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /Supplier
+Stack Trace:
+#0 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/ec2-user/environment/vendor/cakephp/cakephp/src/Http/Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/ec2-user/environment/webroot/index.php(40): Cake\Http\Server->run()
+#15 /home/ec2-user/environment/index.php(16): require('/home/ec2-user/...')
+#16 {main}
+
+
+2018-09-12 05:13:15 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:14:30 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:14:45 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:15:47 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2018-09-12 05:16:08 Warning: DebugKit is disabling itself as your host `67b566c561ac49c18206d8f7a8aee829.vfs.cloud9.us-east-2.amazonaws.com` is not in the known safe list of top-level-domains (localhost, dev, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
